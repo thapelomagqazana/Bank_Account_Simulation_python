@@ -58,5 +58,12 @@ while True:
             print(f'Your new balance is: {accountBalance}')
 
     elif action.startswith('s'):
-        print(f'Account Name: {accountName}')
-        print(f'Account Password: {accountPassword}')
+        print('Show Account:')
+        print()
+        print(f'      Account Name:     {accountName}')
+        print(f'      Account Password: {accountPassword}')
+
+    elif action.startswith('q'):
+        break
+    else:
+        print('Invalid option')
